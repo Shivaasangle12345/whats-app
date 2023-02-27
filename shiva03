@@ -1,0 +1,5 @@
+Webdriver driver=new ChromeDriver();
+driver.manage().window.().maximize();
+driver.get("http:/whats app.com");
+driver.findelement(By.id("username")).sendkeys("admin");
+driver.findelement(By.name("pwd")).sendkeys("manager");
